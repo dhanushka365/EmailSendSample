@@ -1,4 +1,4 @@
-﻿namespace EmailSendSample.Controllers
+﻿namespace EmailSendSample.Model
 {
     public class EmailModel
     {

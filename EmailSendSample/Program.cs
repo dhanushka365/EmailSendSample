@@ -1,4 +1,5 @@
 using EmailSendSample.Controllers;
+using EmailSendSample.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 

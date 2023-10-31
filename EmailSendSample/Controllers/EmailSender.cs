@@ -1,6 +1,7 @@
 ﻿using System.Net.Mail;
 using System.Net;
 using System.Text;
+using EmailSendSample.Interface;
 
 namespace EmailSendSample.Controllers
 {
