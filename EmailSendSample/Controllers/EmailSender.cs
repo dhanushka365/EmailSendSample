@@ -13,11 +13,11 @@ namespace EmailSendSample.Controllers
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
             client.EnableSsl = true;
             client.UseDefaultCredentials = false;
-            client.Credentials = new NetworkCredential("dhanushkauduwela10000@gmail.com", "txfrsufipqotkikr");
+            client.Credentials = new NetworkCredential("dhanushkauduwela10000@gmail.com", "txfrsufipqotkikr"); // create new app and use your email and app credentials
 
             // Create email message
             MailMessage mailMessage = new MailMessage();
-            mailMessage.From = new MailAddress("dhanushkauduwela10000@gmail.com");
+            mailMessage.From = new MailAddress("dhanushkauduwela10000@gmail.com");//use your email that you created the app
             mailMessage.To.Add(toEmail);
             mailMessage.Subject = subject;
             mailMessage.IsBodyHtml = true;
